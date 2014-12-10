@@ -6,7 +6,7 @@
         <meta name="author" content="Keyamoon">
         <meta name="viewport" content="width=device-width">
         <meta itemprop="name" content="IcoMoon">
-        <meta name="description" itemprop="description" content="IcoMoon provides a package of vector icons, along with a free HTML5 app for making custom icon fonts. Browse among thousands of pixel perfect icons or import your own vectors.">
+        <meta name="description" itemprop="description" content="Digbury Weekender">
         <meta itemprop="image" content="http://icomoon.io/img/icon96.png">
 
     <title>Digibury Weekender</title>
@@ -14,6 +14,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/digibury-weekender.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,15 +34,23 @@
           </li>
           
           <li>
-            <a href="#speaker" data-section="speaker"><span class="menu-item">Speakers and Sponsors</span></a>
+            <a href="#speaker" data-section="speaker"><span class="menu-item">Speakers</span></a>
           </li>
-          
-          <li>  
-            <a href="#where" data-section="where"><span class="menu-item">Where is it?</span></a>
+
+          <li>
+            <a href="#schedule" data-section="schedule"><span class="menu-item">Schedule</span></a>
           </li>
-          
+                    
+          <li>
+            <a href="#sponsors" data-section="sponsors"><span class="menu-item">Sponsors</span></a>
+          </li>
+                    
           <li>
             <a href="#involved" data-section="involved"><span class="menu-item">Get involved</span></a>
+          </li>
+                    
+          <li>  
+            <a href="#where" data-section="where"><span class="menu-item">Where is it?</span></a>
           </li>
           
           <li>
@@ -54,8 +63,8 @@
     <header>
     
       <div class="preheader">
-        <div <div class="container">        
-          <h4>The nice people at digital agency <a href="http://deeson-online.co.uk/">Deeson Online</a> proudly present:</h4>
+        <div class="container">        
+          <h4>The people at digital agency <a href="http://www.deeson.co.uk/">Deeson</a> proudly present:</h4>
         </div>
       </div>
 
@@ -76,18 +85,22 @@
             </div>
             
             <a class="navbar-brand" href="#">Digibury Weekender</a>
-          
           </div>
       
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  
             <ul class="nav navbar-nav">
+              
               <li>
-                <a href="#about"><span class="icon icon-qmark"></span><span class="menu-item">What's it about?</span></a>
+                <a href="#speaker"><span class="icon icon-speaker"></span><span class="menu-item">Speakers</span></a>
               </li>
               
               <li>
-                <a href="#speaker"><span class="icon icon-speaker"></span><span class="menu-item">Speakers and Sponsors</span></a>
+                <a href="#schedule"><span class="icon icon-plan"></span><span class="menu-item">Schedule</span></a>
+              </li>
+              
+              <li>
+                <a href="#sponsors"><span class="icon icon-sponsor"></span><span class="menu-item">Sponsors</span></a>
               </li>
               
               <li>  
@@ -101,6 +114,10 @@
               <li>
                 <a href="#whats"><span class="icon icon-digibury"></span><span class="menu-item">About Digibury</span></a>
               </li>
+
+              <li>
+                <a class="bio-modal-link" data-toggle="modal" data-target="#presspack"><span class="icon icon-qmark"></span><span class="menu-item">Press pack</span></a>
+              </li>
             </ul>
           </div>
           
@@ -111,8 +128,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 post-header-left">
-              <h3>The Gulbenkian, University of Kent</h3>
-              <h4>18 October 2014, 9.30am-5.30pm</h4>
+              <img alt="Gulbenkian" class="" src="images/gulbenkian2.png" />
+              <h4 class="uni-title">University of Kent</h4>
+              <h4>18 October 2014, 9.30am-6pm</h4>
             </div>
             
             <div class="col-md-6 post-header-right">
@@ -135,7 +153,7 @@
             <div class="row">              
               <div class="col-sm-4">
                 <h2>The festival</h2>
-                <p>Organised by digital agency <a href="http://deeson-online.co.uk/">Deeson Online</a>, the festival will explore the impact technology has on society and culture, mixing inspirational lectures and discussions from rockstar leaders with Lightning Talks from members of the community.</p>
+                <p>Organised by digital agency <a href="http://deeson-online.co.uk/">Deeson</a>, the festival will explore the impact technology has on society and culture, mixing inspirational lectures and discussions from rockstar leaders with Lightning Talks from members of the community.</p>
                
               </div>
               
@@ -144,6 +162,20 @@
               </div>
               
               <div class="col-sm-4">
+                <h2>Hosted by Robin Ince</h2>
+                <div class="row">
+                  <div class="col-md-7 col-sm-12 col-xs-12">
+                    <p>Comedian, writer and co-host of BBC R4’s Infinite Monkey Cage welcomes you to the Digibury Weekender as host of this one-day tech, digital, art and design festival.</p>
+                  </div>
+                  <div class="col-md-5 col-sm-12 col-xs-12 robin">
+                    <img alt="Robin Ince" src="images/robin.jpg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
                 <h2>Features</h2>
                 <div class="row bolt-bullet">
                   <div class="col-sm-6">
@@ -155,24 +187,11 @@
                     <p><span class="icon icon-lbolt"></span><span class="bullet-item">Discussions</span></p>
                   </div>
                 </div>
-                
                 <p>…all about the stuff that makes us go 'wow'.</p>
               </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-sm-4 col-sm-offset-2">
-                <h2>Lightning Talks</h2>
-                <p>We'll run a number of Lightning Talks from the local community focusing on creativity, innovation and ideas. Interested? <a href="https://docs.google.com/a/deeson.co.uk/forms/d/17wBq9wKqTHG6q29ykCkf0XvjNOI7uSeYPPkgYrheeno/viewform">Then sign up now!</a></p>
-              </div>
-              
-              <div class="col-sm-4">
-                <h2>Hosted by Robin Ince</h2>
-                <p>Comedian, writer and co-host of BBC R4’s Infinite Monkey Cage welcomes you to the Digibury Weekender as host of this one-day tech, digital, art and design festival.</p>
-              </div>
-              
-              <div class="col-sm-2 robin">
-                <img alt="where" src="images/robin.jpg" />
+              <div class="col-lg-6 col-md-6 col-lg-offset-2">
+                <h2>Digibury Community Demos</h2>
+                <p>We invited members of our local community to give short talks about their passion and ideas - much like we do every month at Digibury. <a href="#schedule" data-section="schedule">Here's who you can see on October 18 on the Cabaret Stage</a></p>
               </div>
             </div>
           </div>
@@ -185,136 +204,356 @@
           <img alt="where" class="about-img-auto" src="images/speakers.png" />
 
           <div class="row">
-            <div class="col-sm-3 col-sm-offset-1">
+
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
               <div class="speaker-profile">
-                <img alt="where" src="images/james.jpg" />
-                <h5>James Cashmore</h5>
+                <a class="bio-modal-link" data-toggle="modal" data-target="#AralBalkan"><img alt="where" src="images/aral2.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#AralBalkan">Aral Balkan</a></h5>
+                <h4>Ind.ie</h4>
+              </div>
+            </div>
+            
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
+              <div class="speaker-profile">
+                <a class="bio-modal-link" data-toggle="modal" data-target="#JamesCashmore"><img alt="where" src="images/james.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#JamesCashmore">James Cashmore</a></h5>
                 <h4>Google</h4>
-                <h4 class="thread">Innovation</h4>
               </div>
             </div>
             
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
               <div class="speaker-profile">
-                <img alt="where" src="images/mark.jpg" />
-                <h5>Mark O'Neill</h5>
+                <a class="bio-modal-link" data-toggle="modal" data-target="#MarkONeill"><img alt="where" src="images/mark.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#MarkONeill">Mark O'Neill</a></h5>
                 <h4>Government Digital Service</h4>
-                <h4 class="thread">Society</h4>
               </div>
             </div>
             
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
               <div class="speaker-profile">
-                <img alt="where" src="images/roger.jpg" />
-                <h5>Roger Gorman</h5>
-                <h4>ProFinder</h4>
-                <h4 class="thread">Innovation</h4>
+                <a class="bio-modal-link" data-toggle="modal" data-target="#PaulThomas"><img alt="Paul Thomas" src="images/paul-thomas.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#PaulThomas">Paul Thomas</a></h5>
+                <h4>Microsoft</h4>
               </div>
-            </div>
+            </div>            
+
           </div>
-
-
           <div class="row">
-            <div class="col-sm-3 col-sm-offset-3">
+
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
               <div class="speaker-profile">
-                <img alt="where" src="images/simeon.jpg" />
-                <h5>Simeon Berends</h5>
-                <h4>ITN productions</h4>
-                <h4 class="thread">Media</h4>
+                <a class="bio-modal-link" data-toggle="modal" data-target="#MeriWilliams"><img alt="Meri Williams" src="images/meri-williams.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#MeriWilliams">Meri Williams</a></h5>
+                <h4>ChromeRose</h4>
+              </div>
+            </div>            
+
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
+              <div class="speaker-profile">
+                <a class="bio-modal-link" data-toggle="modal" data-target="#AngusBankes"><img alt="where" src="images/angus.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#AngusBankes">Angus Bankes</a></h5>
+                <h4>Skimlinks</h4>
               </div>
             </div>
 
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
               <div class="speaker-profile">
-                <img alt="where" src="images/paul.png" />
-                <h5>Paul Hallett</h5>
-                <h4>TWILIO</h4>
-                <h4 class="thread">Innovation</h4>
+                <a class="bio-modal-link" data-toggle="modal" data-target="#SebastianHaire"><img alt="where" src="images/sebastian.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#SebastianHaire">Sebastian Haire</a></h5>
+                <h4>ProFinda</h4>
               </div>
             </div>
 
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
               <div class="speaker-profile">
-                <img alt="where" src="images/dave.jpg" />
-                <h5>Dave Walker</h5>
-                <h4>QA.com</h4>
-                <h4 class="thread">Learning</h4>
+                <a class="bio-modal-link" data-toggle="modal" data-target="#Vinita"><img alt="Vinita Khandelwal Rathi" src="images/vinita.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#Vinita">Vinita Khandelwal Rathi</a></h5>
+                <h4>Women Who Code &amp; Systango</h4>
               </div>
             </div>
+
           </div>
+          <div class="row">                       
 
-          <div class="row">           
-            <div class="col-sm-3 col-sm-offset-1">
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
               <div class="speaker-profile">
-                <img alt="where" src="images/celia.jpg" />
-                <h5>Celia Glynn-Williams</h5>
-                <h4>Canterbury City Council</h4>
-                <h4 class="thread">Society</h4>
+                <a class="bio-modal-link" data-toggle="modal" data-target="#SimeonBerends"><img alt="where" src="images/simeon.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#SimeonBerends">Simeon Berends</a></h5>
+                <h4>ITN productions</h4>
               </div>
             </div>
 
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
               <div class="speaker-profile">
-                <img alt="where" src="images/memo.jpg" />
-                <h5>Memo Akten</h5>
-                <h4>Visual Artist, Musician &amp; Engineer</h4>
-                <h4 class="thread">Arts &amp; culture</h4>
+                <a class="bio-modal-link" data-toggle="modal" data-target="#Alberta"><img alt="Alberta Soranzo" src="images/alberta.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#Alberta">Alberta Soranzo</a></h5>
+                <h4>Friday</h4>
+              </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
+              <div class="speaker-profile">
+                <a class="bio-modal-link" data-toggle="modal" data-target="#VeliaCoffey"><img alt="where" src="images/velia.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#VeliaCoffey">Velia Coffey</a></h5>
+                <h4>Canterbury City Council</h4>
               </div>
             </div>
             
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
               <div class="speaker-profile">
-                <img alt="where" src="images/bryony.jpg" />
-                <h5>Bryony Bishop</h5>
-                <h4>Turner Contemporary</h4>
-                <h4 class="thread">Arts &amp; culture</h4>
+                <a class="bio-modal-link" data-toggle="modal" data-target="#PaulHallett"><img alt="where" src="images/paul.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#PaulHallett">Paul Hallett</a></h5>
+                <h4>TWILIO</h4>
               </div>
             </div>
+
+          </div>          
+          <div class="row">                       
+
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
+              <div class="speaker-profile">
+                <a class="bio-modal-link" data-toggle="modal" data-target="#LeoWhitlock"><img alt="where" src="images/leo-whitlock.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#LeoWhitlock">Leo Whitlock</a></h5>
+                <h4>KM Group</h4>
+              </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
+              <div class="speaker-profile">
+                <a class="bio-modal-link" data-toggle="modal" data-target="#BryonyBishop"><img alt="where" src="images/bryony.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#BryonyBishop">Bryony Bishop</a></h5>
+                <h4>Turner Contemporary</h4>
+              </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
+              <div class="speaker-profile">
+                <a class="bio-modal-link" data-toggle="modal" data-target="#MemoAkten"><img alt="where" src="images/memo.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#MemoAkten">Memo Akten</a></h5>
+                <h4>Visual Artist, Musician &amp; Engineer</h4>
+              </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
+              <div class="speaker-profile">
+                <a class="bio-modal-link" data-toggle="modal" data-target="#DaveWalker"><img alt="where" src="images/dave.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#DaveWalker">Dave Walker</a></h5>
+                <h4>QA.com</h4>
+              </div>
+            </div>
+
+          </div>          
+          <div class="row">                       
+
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
+              <div class="speaker-profile">
+                <a class="bio-modal-link" data-toggle="modal" data-target="#HowardGriffin"><img alt="where" src="images/howard.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#HowardGriffin">Howard Griffin</a></h5>
+                <h4>University of Kent</h4>
+              </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
+              <div class="speaker-profile">
+                <a class="bio-modal-link" data-toggle="modal" data-target="#BarbaraCooper"><img alt="Barbara Cooper" src="images/barbara-cooper.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#BarbaraCooper">Barbara Cooper</a></h5>
+                <h4>Kent County Council</h4>
+              </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6 col-xxs-12">
+              <div class="speaker-profile">
+                <a class="bio-modal-link" data-toggle="modal" data-target="#janeredman"><img alt="Jane Redman" src="images/jane-redman.jpg" /></a>
+                <h5><a class="bio-modal-link" data-toggle="modal" data-target="#janeredman">Jane Redman</a></h5>
+                <h4>Porchlight</h4>
+              </div>
+            </div>
+
           </div>
           
-          <h2 class="text-center">...plus more to be announced!</h2>
+          <div id="schedule" class="schedule-wrapper">
+            <img alt="Schedule" class="about-img-auto" src="images/schedule.png" />
+            <div class="row">
+              <div class="col-md-8 col-sm-12 col-md-offset-2">
+                <table cellspacing="0" cellpadding="0" class="table">
+                  <tbody>
+                    <tr class="row-highlight">
+                      <td>
+                        <p><strong>8.30am</strong></p>
+                      </td>
+                      <td>
+                        <p>Registration<br />
+                        Community talks (cafe area)</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>9.30am</strong></p>
+                      </td>
+                      <td>
+                        <p>Introduction - <a href="http://www.robinince.com/">Robin Ince</a></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>9.40am</strong></p>
+                      </td>
+                      <td>
+                        <p>Keynote - <a class="bio-modal-link" data-toggle="modal" data-target="#AralBalkan">Aral Balkan</a></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>10.05am</strong></p>
+                      </td>
+                      <td>
+                        <p><a class="bio-modal-link" data-toggle="modal" data-target="#DaveWalker">Dave Walker</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#Vinita">Vinita Khandelwal Rathi</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#HowardGriffin">Howard Griffin</a></p>
+                      </td>
+                    </tr>
+                    <tr class="row-highlight">
+                      <td>
+                        <p><strong>11.05am</strong></p>
+                      </td>
+                      <td>
+                        <p>Break<br />
+                        Community talks (cafe area)</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>11.25am</strong></p>
+                      </td>
+                      <td>
+                        <p><a class="bio-modal-link" data-toggle="modal" data-target="#PaulThomas">Paul Thomas</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#Alberta">Alberta Soranzo</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#BarbaraCooper">Barbara Cooper</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#AngusBankes">Angus Bankes</a></p>
+                      </td>
+                    </tr>
+                    <tr class="row-highlight">
+                      <td>
+                        <p><strong>12.40pm</strong></p>
+                      </td>
+                      <td>
+                        <p>Lunch<br />
+                        Community talks (cafe area)</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>1.25pm</strong></p>
+                      </td>
+                      <td>
+                        <p><a class="bio-modal-link" data-toggle="modal" data-target="#SimeonBerends">Simeon Berends</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#LeoWhitlock">Leo Whitlock</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#janeredman">Jane Redman</a></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>2.30pm</strong></p>
+                      </td>
+                      <td>
+                        <p><a class="bio-modal-link" data-toggle="modal" data-target="#MemoAkten">Memo Akten</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#BryonyBishop">Bryony Bishop</a></p>
+                      </td>
+                    </tr>
+                    <tr class="row-highlight">
+                      <td>
+                        <p><strong>3.15pm</strong></p>
+                      </td>
+                      <td>
+                        <p>Break</p>
+                        <p>Community talks (cafe area)</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>3.35pm</strong></p>
+                      </td>
+                      <td>
+                        <p><a class="bio-modal-link" data-toggle="modal" data-target="#MarkONeill">Mark O'Neill</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#VeliaCoffey">Velia Coffey</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#SebastianHaire">Sebastian Haire</a></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>4.40pm</strong></p>
+                      </td>
+                      <td>
+                        <p><a class="bio-modal-link" data-toggle="modal" data-target="#PaulHallett">Paul Hallett</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#MeriWilliams">Meri Williams</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#JamesCashmore">James Cashmore</a><br />
+                        <a class="bio-modal-link" data-toggle="modal" data-target="#AralBalkan">Aral Balkan</a></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p><strong>5.50pm</strong></p>
+                      </td>
+                      <td>
+                        <p>Closing remarks - <a href="http://www.robinince.com/">Robin Ince</a></p>
+                      </td>
+                    </tr>
+                    <tr class="row-highlight">
+                      <td>
+                        <p><strong>6pm</strong></p>
+                      </td>
+                      <td>
+                        <p>Networking and socialising - yay!</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p><strong>All the action takes place in the main theatre unless otherwise indicated.</strong></p>
+                <p class="small">Note: Schedule subject to changes</p>
+              </div>  
+            </div>  
+          </div>    
+
+
           
-          <div class="sponsor-wrapper">
+          <div class="sponsor-wrapper" id="sponsors">
             <img alt="where" class="about-img-auto" src="images/sponsors.png" />
             
-            <div class="row sponsors">
-              <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-1">
-               <a href="http://google.com"> <img alt="google" src="images/google.png" /></a>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="http://microsoft.co.uk"><img alt="Canterbury Festival" src="images/microsoft.png" /></a>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="http://twilio.com"><img alt="Twillio" src="images/twilio.png" /></a>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="http://qa.com"><img alt="QA" src="images/qalogo.png" /></a>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="http://www.itnproductions.co.uk/"><img alt="itn productions" src="images/itn.png" /></a>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+               <a href="http://www.artscouncil.org.uk/"> <img class="arts-logo" alt="Art Council" src="images/art-coucil.png" /></a>
               </div>
             </div>
             
-            <div class="row sponsors">
-              <!--<div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-1">
-                <img alt="google" src="images/km.png" />
-              </div>-->
-              <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-1">
-                <a href="http://www.canterburyfestival.co.uk/"><img alt="Canterbury festival" src="images/cf.png" /></a>
+            <div class="row sponsors img-fixed">
+                <h3 class="text-center">In association with:</h3> 
+              <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 col-md-offset-3 col-sm-offset-2">
+                <a href="http://www.thegulbenkian.co.uk/"><img alt="Gulbenkian" src="images/gulbenkian-ukc.png" /></a>
               </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="https://www.canterbury.gov.uk/"><img alt="Canterbury city council" src="images/ccc.png" /></a>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="http://www.kent.gov.uk/"><img alt="Kent county coucil" src="images/kcc.png" /></a>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="http://www.turnercontemporary.org/"><img alt="Turner Contemporary" src="images/tc.png" /></a>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-2">
-                <a href="http://www.thegulbenkian.co.uk/"><img alt="Gulbenkian" src="images/gulbenkian.png" /></a>
+              <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                <a href="http://www.canterburyfestival.co.uk/"><img alt="Canterbury festival" src="images/cf2.png" /></a>
               </div>
             </div>
+            
+            <div class="row sponsors img-fixed">
+                <h3 class="text-center">Sponsors:</h3> 
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <a href="http://twilio.com"><img alt="Twillio" src="images/twilio.png" /></a>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <a href="https://www.canterbury.gov.uk/"><img alt="Canterbury city council" src="images/ccc.png" /></a>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <a href="http://www.kent.gov.uk/"><img alt="Kent county coucil" src="images/kcc.png" /></a>
+              </div>
+            </div>
+
+            <div class="row sponsors img-fixed">
+              <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                <h3 class="text-center">Regional Media Partner:</h3>
+                <a href="http://www.kentonline.co.uk/"><img alt="KM" src="images/km.png" /></a>
+              </div>
+            </div>    
             
             <h2 class="text-center"><span class="icon icon-lbolt"></span>Calling sponsors!  <a HREF="mailto:lizzieh@deeson.co.uk?subject=Digibury Weekender Sponsorship&body=Please send me more information on sponsorship packages for Digibury Weekender. Thank you!" class="pink-btn btn">Get involved</a> <span class="icon icon-rbolt"></span></h2>
           </div>
@@ -324,9 +563,13 @@
       <div class="deeson-wrapper">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 post-header-left">
-              <a href="http://deeson-online.co.uk"><img alt="QA" src="images/do-logo.png" /></a>
+            <div class="col-md-6">
+              <h3>Digibury Weekender is brought to you by the people at &nbsp;<a href="http://www.deeson.co.uk"><img alt="Deeson" src="images/deeson.png" class="deeson-align" /></a></h3>
             </div>
+            
+            <!--<div class="col-md-2">
+              <a href="http://deeson-online.co.uk"><img alt="QA" src="images/do-logo.png" /></a>
+            </div>-->
             
             <div class="col-md-6 post-header-right">
               <h4>BUY YOUR TICKETS ONLINE <a class="btn white-btn" href="https://uk.patronbase.com/_Gulbenkian/Sections/Choose?prod_id=DW01&perf_id=1">TICKETS: £10</a></h4>
@@ -334,7 +577,28 @@
           </div>
         </div>
       </div>    
-      
+
+      <div id="involved" class="white-wrapper">
+        <a name="involved" class="section"></a>
+        <div class="container">
+          <img alt="where" class="about-img-auto" src="images/involved.png" />
+          
+          <div class="row">
+            <div class="col-sm-2 hidden-xs">
+              <img alt="Digibury Weekender" src="images/bolt1.png" />
+            </div>
+            <div class="col-sm-8">
+              <h2>&ldquo;Embrace Your Space&rdquo; Lightning Talks</h2>
+              <p><strong>We’ve teamed up with 'Kent Connects Transformed By You' challenge and University of Kent to run special Embrace Your Space Lightning Talk sessions.</strong> Got a brilliant idea on how technology can help improve your area? Want to win the chance to get your idea turned into reality using technology? Then tell everyone at the Digibury Weekender Embrace your Space Lightning Talk session! From beaches, bus stops and skate parks to urban games, learning zones and street art, get involved!</p>
+              <a class="btn pink-btn" href="http://www.transformedbyyou.com">Share your idea now</a>
+            </div>
+            <div class="col-sm-2 hidden-xs">
+              <img alt="Digibury Weekender" src="images/bolt2.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+                  
       
       <div id="where" class="black-wrapper" name="where">
         <a name="where" class="section"></a>
@@ -364,27 +628,6 @@
         </div>
       </div>
       
-      <div id="involved" class="white-wrapper">
-        <a name="involved" class="section"></a>
-        <div class="container">
-          <img alt="where" class="about-img-auto" src="images/involved.png" />
-          
-          <div class="row">
-            <div class="col-sm-3 hidden-xs">
-              <img alt="Digibury Weekender" src="images/bolt1.png" />
-            </div>
-            <div class="col-sm-6">
-              <h2>Give a lightning talk</h2>
-              <p>Want to give a short talk at Digibury Weekender on a project to idea? Then let us know! We’re on the lookout for 5 minute <a target="blank" href="http://en.wikipedia.org/wiki/Lightning_talk">Lightning Talks</a> - on any topic or subject - much like the usual Digibury talks, but shorter.</p>
-              <a class="btn pink-btn" href="https://docs.google.com/forms/d/17wBq9wKqTHG6q29ykCkf0XvjNOI7uSeYPPkgYrheeno/viewform?usp=send_form">Submit lightning talk</a></h4>
-            </div>
-            <div class="col-sm-3 hidden-xs">
-              <img alt="Digibury Weekender" src="images/bolt2.png" />
-            </div>
-          </div>
-        </div>
-      </div>
-            
       <div id="whats" class="grey-wrapper">
         <a name="whats" class="section"></a>
         <div class="container">
@@ -393,7 +636,7 @@
           <div class="row">
             <div class="col-sm-4">
               <h2>Who's behind Digibury?</h2>
-              <p>Run by digital agency, <a href="http://deeson-online.co.uk/">Deeson Online</a>, Digibury is held at The Gulbenkian art centre, University of Kent, every second Wednesday of the month.</p>
+              <p>Run by digital agency, <a href="http://www.deeson.co.uk/">Deeson</a>, Digibury is held at The Gulbenkian art centre, University of Kent, every second Wednesday of the month.</p>
             </div>
             <div class="col-sm-4">
               <h2>What is Digibury?</h2>
@@ -414,20 +657,577 @@
       <a href="#top-nav" class="back-to-top glyphicon glyphicon-circle-arrow-up "></a>
       <div class="container">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-lg-4 col-md-5 clearfix">
             <a class="brand" href="#">Digibury Weekender</a>
+            <a class="da-logo" href="http://deeson-online.co.uk"><img alt="Deeson" src="images/deeson.png" /></a>
           </div>
-          <div class="col-md-5">
-            <h3>The Gulbenkian, University of Kent</h3>
-            <h4>18 October 2014, 9.30am-5.30pm</h4>
+          <div class="col-lg-4 col-md-3 clearfix">
+            <h3>The Gulbenkian, <br />University of Kent</h3>
+            <h4>18 October 2014, 9.30am-6pm</h4>
           </div>
-          <div class="col-md-5 footer-tickets">
-            <h4>BUY YOUR TICKETS ONLINE <a class="btn white-btn" href="https://uk.patronbase.com/_Gulbenkian/Sections/Choose?prod_id=DW01&perf_id=1">TICKETS: £10</a></h4>
+          <div class="col-lg-4 col-md-4 footer-tickets">
+            <h4>BUY YOUR <br>TICKETS ONLINE</h4>
+            <a class="btn white-btn" href="https://uk.patronbase.com/_Gulbenkian/Sections/Choose?prod_id=DW01&perf_id=1">TICKETS: £10</a>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p><small><a class="bio-modal-link" data-toggle="modal" data-target="#codeconduct"><span class="glyphicon glyphicon-heart-empty"></span> Code of conduct</a></small></p>
+          </div>
+        </div>        
       </div>
 
     </footer>
+
+
+
+
+<!-- Bio Modals -->
+    <div class="modal fade" id="AralBalkan" tabindex="-1" role="dialog" aria-labelledby="AralBalkan" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Aral Balkan" src="images/aral2.jpg" />
+                <h5>Aral Balkan</h5>
+                <p class="bio-position">Ind.ie &mdash; Innovator/social entrepreneur</p>
+                <p><a href="https://twitter.com/aral">@aral</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk</h4>
+                  <p>He's still cooking this up... but it's going to be epic!</p>
+                  <h4>About Aral</h4>
+                  <p>Aral Balkan is a designer and social entrepreneur working to protect fundamental freedoms and democracy by creating independent alternative consumer technologies that do not spy on you. Aral is the founder and lead designer of Ind.ie author of the Ind.ie manifesto. He is currently working on designing the first Ind.ie product, a beautiful consumer smartphone called Ind.ie/phone that will be crowdfunded November 2014</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="JamesCashmore" tabindex="-1" role="dialog" aria-labelledby="JamesCashmore" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="James Cashmore" src="images/james.jpg" />
+                <h5>James Cashmore</h5>
+                <p class="bio-position">Google &mdash; Director of Retail</p>
+                <p><a href="https://twitter.com/jcashmore1">@jcashmore1</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: 'Welcome to our connected globe'</h4>
+                  <p>The three pillars of consumer, business and tech are driving our lives forward in ways we could never have imagined even a handful of years ago. From multiple screens to driverless cars, James explores how are we adapting to this brave new world.</p>
+                  <h4>About James</h4>
+                  <p>James is responsible for developing communications and partner development strategies for Google's advertising offerings to Retail companies. He leads the Industry Sales Teams who are responsible for building successful client and agency advertising partnerships with Google. Previously James led the Media and Entertainment Team for over five years including advertisers across TV Subscription, Film, Gaming and Gambling. Prior to joining Google in 2004, James worked for Technology Content publishing companies, VNU and Ziff Davis. </p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="MarkONeill" tabindex="-1" role="dialog" aria-labelledby="MarkONeill" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Mark O'Neill" src="images/mark.jpg" />
+                <h5>Mark O'Neill</h5>
+                <p class="bio-position">Government Digital Service &mdash; Head of Innovation</p>
+                <p><a href="https://twitter.com/marxculture">@marxculture</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: Transforming Universal Services</h4>
+                  <p>What does a good service feel like and how do we get to good?</p>
+                  <h4>About Mark</h4>
+                  <p>Mark O'Neill transforms things for the government. Recently he built the new electoral registration service for the UK and made parts of the justice system faster and better for people. Before this, Mark got London 2012 off the ground and set up the ePetition site for Parliament. </p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="AngusBankes" tabindex="-1" role="dialog" aria-labelledby="AngusBankes" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Angus Bankes" src="images/angus.jpg" />
+                <h5>Angus Bankes</h5>
+                <p class="bio-position">Skimlinks &mdash; CIO</p>
+                <p><a href="https://twitter.com/Bankesy">@Bankesy</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: 'Bitcoin: the financial revolution'</h4>
+                  <p>We've all heard of Bitcoin, but why should we be interested? In his enlightening talk, Angus will explore how Bitcoin will fundamentally change banking, financial institutions and our lives. Forever.</p>
+                  <h4>About Angus</h4>
+                  <p>Angus currently heads up the incubator JustAddRed and is Chief Information Officer at Skimlinks, the leader in online content monetisation. He is an expert advisor on social and media to the political think-tank, Demos. A pioneer in the area of XML, Angus was was one of the driving forces behind the mass adoption of Really Simple Syndication (RSS) feeds. He founded Moreover Technologies in 1998 and became involved with developing the RSS 1.0 standard in 2000 and was later acquired by VeriSign in 2005 for $30m. </p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="SebastianHaire" tabindex="-1" role="dialog" aria-labelledby="SebastianHaire" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Sebastian Haire" src="images/sebastian.jpg" />
+                <h5>Sebastian Haire</h5>
+                <p class="bio-position">ProFinda &mdash; Founding Partner</p>
+                <p><a href="https://twitter.com/sebhaire">@sebhaire</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: The power of collaboration &mdash; The disruptive impact technology has on our lives and how we can harness it to be more collaborative and creative in the work place.</h4>
+                  <p>This presentation looks at how technology has impacted our lives, changing for ever the way we interact. It looks at how it empowers us to have access to the right people at the right time and ultimately how that gives us more power to create and control our lives. Harnessing what makes us great as individuals.</p>
+                  <h4>About Sebastian</h4>
+                  <p>Seb is a Co-founder of ProFinda, an award winning digital collaboration platform revolutionising the ways companies and communities connect. Seb has been heavily involved in the collaboration / start-up world founding tech:pollinate (an Australian innovation community), launching the Techmeetups franchise into Australia and most recently founding tech:tennis, an LTA backed initiative focussed on raising funds for under-privileged schools sports programmes.</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="SimeonBerends" tabindex="-1" role="dialog" aria-labelledby="SimeonBerends" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Simeon Berends" src="images/simeon.jpg" />
+                <h5>Simeon Berends</h5>
+                <p class="bio-position">ITN productions</p>
+                <p><a href="https://twitter.com/BeresD">@BeresD</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: From consumers to creators: How millennials are making the digital landscape</h4>
+                  <h4>About Simeon</h4>
+                  <p>Simeon Berends is an award-winning creative director and executive producer. He started out in news and dabbled in music before moving onto writing and producing TV shows. He now develops creative campaigns at ITN Productions across all platforms including video, app, event, experiential, outdoor and digital that exist everywhere and stop nowhere.</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="PaulHallett" tabindex="-1" role="dialog" aria-labelledby="PaulHallett" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Paul Hallett" src="images/paul.jpg" />
+                <h5>Paul Hallett</h5>
+                <p class="bio-position">TWILIO &mdash; Developer Evangelist</p>
+                <p><a href="https://twitter.com/phalt_">@phalt_</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: 'Software people are changing the world'</h4>
+                  <p>Software is the foundation of the future: from transportation to communications, personal shopping to personal services, software people are building applications that are changing the world. In this talk on innovation, Paul discusses a few killer apps that are revolutionising antiquated industries and bringing them into the software world.</p>
+                  <h4>About Paul</h4>
+                  <p>Paul Hallett is a Developer Evangelist at Twilio, a cloud communications company. Passionate about computers since childhood, Paul is obsessed with Python and Django. He believes software is changing the world and the way we communicate. As a devangelists, he endeavours to empower developers through teaching people about new technologies and best practices. He loves to build REST Web Services and Open Source Software.</p>
+                  <h4>About sponsor: Twilio</h4>
+                  <a href="http://twilio.com"><img alt="Twillio" class="sponsor-bio" src="images/twilio2.png" /></a>
+                  <p>We empower developers to build powerful communications, enabling voice and sms functionality in software. We take care of the messy telecom hardware and expose a globally available web API that developers can use to build interactive and intelligent communications. We are software people and we believe in software people, people who naturally focus on the user and turn business problems into software problems.</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="DaveWalker" tabindex="-1" role="dialog" aria-labelledby="DaveWalker" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Dave Walker" src="images/dave.jpg" />
+                <h5>Dave Walker</h5>
+                <p class="bio-position">QA.com &mdash; Principal Technologist</p>
+                <p><a href="https://twitter.com/theFictionaut">@theFictionaut</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: Lifelong learning</h4>
+                  <h4>About Dave</h4>
+                  <p>David has been in love with the web for 21 years, his wife understands. He is a full stack web Boffin passionate about emerging technologies. He is also a beer connoisseuring, comic book loving and role-play game playing geek of a guy.</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="VeliaCoffey" tabindex="-1" role="dialog" aria-labelledby="VeliaCoffey" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Velia Coffey" src="images/velia.jpg" />
+                <h5>Velia Coffey</h5>
+                <p class="bio-position">Canterbury City Council &mdash; Deputy Chief Executive</p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: 'How digital is transforming services'</h4>
+                  <h4>About Velia</h4>
+                  <p>Velia joined Canterbury City Council from Westminster City Council in 1991 and since then has held various senior management roles. Appointed as Deputy Chief Executive in 2012, Velia has responsibility for some of the council’s external partnerships and interests which are key to the delivery of the council’s main plans. These include the Safer Community Partnership, the Student Community Working Group, Canterbury and Coastal Health and Wellbeing Board and the Kent &amp; Medway Domestic Violence Strategy Group. She also represents the council on other local, regional, national and international bodies.</p>
+                  <p>Velia line manages the Assistant Directors responsible for many of the council’s commissioned and directly delivered services including housing, waste, festival, museums and community safety. She also leads various council-wide projects such as Customer Service Excellence, Information and Communications Technology, ‘Digital by Design’, Shared Services and implementing the council’s Environment Strategy.</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="MemoAkten" tabindex="-1" role="dialog" aria-labelledby="MemoAkten" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Memo Akten" src="images/memo.jpg" />
+                <h5>Memo Akten</h5>
+                <p class="bio-position">Visual Artist, Musician &amp; Engineer</p>
+                <p><a href="https://twitter.com/memotv">@memotv</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: 'Poetry of Reality'</h4>
+                  <p>What systems encourage new perceptions on our relationship to science, nature, technology and culture? Through visual, sonic and behavioural metaphors, Memo identifies artefacts that reveal, extract, amplify and abstract the unseen harmonies, tensions and poetry found within these phenomena.</p>
+                  <h4>About Memo</h4>
+                  <p>Memo is an artist and engineer. His work has been exhibited and performed globally including London's The Victoria &amp; Albert Museum, Royal Opera House and Royal Festival Hall, in additon to Garage Center for Contemporary Culture in Moscow, La Gaîté lyrique in Paris and Holon Museum in Tel Aviv. A strong supporter of open-source and believer in the sharing of knowledge, Memo is one of the core contributors to the openFrameworks project. </p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="BryonyBishop" tabindex="-1" role="dialog" aria-labelledby="BryonyBishop" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Bryony Bishop" src="images/bryony.jpg" />
+                <h5>Bryony Bishop</h5>
+                <p class="bio-position">Turner Contemporary</p>
+                <p><a href="https://twitter.com/TCMargate">@TCMargate</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: How digital developments are changing the social convention of &#8220;art&#8221;</h4>
+                  <h4>About Bryony</h4>
+                  <p>Info coming soon.</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="HowardGriffin" tabindex="-1" role="dialog" aria-labelledby="HowardGriffin" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Howard Griffin" src="images/howard.jpg" />
+                <h5>Howard Griffin</h5>
+                <p class="bio-position">University of Kent &mdash; Co-Programme Director of the Architectural Visualisation Master's Degree</p>
+                <p><a href="https://twitter.com/howard_griffin">@howard_griffin</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: The Future of the Past: Regional engagement in virtual heritage</h4>
+                  <p>Virtual Heritage is a common term used to describe many forms of the digital representation of historical sites and buildings.  The increased capability of computers and software has enabled the visualisation of this work to achieve heightened levels of realism.  Howard Griffin, Programme Director of the MA Architectural Visualisation course at the University of Kent, will showcase the work his students have been creating using the latest technologies, working with regional heritage partners.  Using this experience, Howard will present an argument for the increased use of technology to help develop a 'sense of place' in a virtual world. Howard will also be joined by Rowena Willard-Wright, form English Heritage.</p>
+                  <h4>About Howard</h4>
+                  <p>Howard Griffin has been involved with architecture and animation for 15 years. A graduate of the School of Architecture at London South Bank University, he quickly developed his skills in architectural presentation and animation in local authority architectural practice and later in private practice. He went on to develop his skills in animation and film graduating from the Sir John Cass School of Art with a Masters in Digital Moving Image. </p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="LeoWhitlock" tabindex="-1" role="dialog" aria-labelledby="LeoWhitlock" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Leo Whitlock" src="images/leo-whitlock.jpg" />
+                <h5>Leo Whitlock</h5>
+                <p class="bio-position">KM Group</p>
+                <p><a href="https://twitter.com/leowhitlock">@leowhitlock</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: Series of Fortunate Events: A tale of how one of the UK's oldest newspapers became a digital driving force in local media</h4>
+                  <h4>About Leo</h4>
+                  <p>Leo is editor of the Kentish Gazette. A journalist and university lecturer, Leo has helped local media newsrooms adapt to the changing world around them</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="MeriWilliams" tabindex="-1" role="dialog" aria-labelledby="MeriWilliams" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Meri Williams" src="images/meri-williams.jpg" />
+                <h5>Meri Williams</h5>
+                <p class="bio-position">ChromeRose &mdash; CTO and owner</p>
+                <p><a href="https://twitter.com/Geek_Manager">@Geek_Manager</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: Practical diversity</h4>
+                  <p>We all know it needs to be done. The big question is how can we bring about real change</p>
+                  <h4>About Meri</h4>
+                  <p>Meri is a geek, a manager, and a manager of geeks. She's a CTO and also has her own micro-consultancy ChromeRose which helps digital and technical teams be brilliant. She’s led teams ranging in size from 30 to 300, mostly with folks spread across the world. In her spare time she enjoys baking, gaming, surfing and her obsession with hot smoking Texas-style BBQ.</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="Vinita" tabindex="-1" role="dialog" aria-labelledby="Vinita" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Vinita Khandelwal Rathi" src="images/vinita.jpg" />
+                <h5>Vinita Khandelwal Rathi</h5>
+                <p class="bio-position">Women Who Code &amp; Systango</p>
+                <p><a href="https://twitter.com/VinitaKRathi">@VinitaKRathi</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: Why we all need women in tech</h4>
+                  <h4>About Vinita</h4>
+                  <p>Vinita is Co Founder, Systango and Ex Vice President, Goldman Sachs, UK. While at Goldman Sachs, Vinita was actively involved in promoting women in technology, a role she is continuing as Director of Women Who Code, London Chapter.</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="BarbaraCooper" tabindex="-1" role="dialog" aria-labelledby="BarbaraCooper" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Barbara Cooper" src="images/barbara-cooper.jpg" />
+                <h5>Barbara Cooper</h5>
+                <p class="bio-position">Kent County Council &mdash; Corporate Director of Growth, Environment and Transport</p>
+                <div class="speaker-profile-text">
+                  <h4>The talk</h4>
+                  <p>She’s still cooking this up... but it's going to be epic!</p>
+                  <h4>About Barbara</h4>
+                  <p>Barbara has worked in regeneration and economic development for over 20 years. Her current position involves making sure that partners share Kent’s aspirations and understand their challenges and relationships are developed with local businesses. As well as working on the regeneration and growth agenda across Kent but particularly the growth areas of Thames Gateway and Ashford as well as coastal East Kent.</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="Alberta" tabindex="-1" role="dialog" aria-labelledby="Alberta" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Alberta Soranzo" src="images/alberta.jpg" />
+                <h5>Alberta Soranzo</h5>
+                <p class="bio-position">Friday &mdash; Director of User Experience</p>
+                <p><a href="https://twitter.com/albertatrebla">@albertatrebla</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk</h4>
+                  <p>She’s still cooking this up... but it's going to be epic!</p>
+                  <h4>About Alberta</h4>
+                  <p>Alberta leads London agency Friday’s experience design team. She spent much of the last 20 years delivering user-focused digital solutions, creating digital frameworks that support retrieval of complex bodies of information and delivering meaningful experiences across channels, platforms and devices.</p>
+                  <p>Alberta hails from Italy and has lived for 15 years in the US where she has helped organisations like UCLA, Center for Disease Control and RF Kennedy Center for Justice and Human Rights fulfill their digital potential.</p>
+                  <p>When she is not on a plane or obsessing about the small things, you can usually find her on Twitter or playing ice hockey at a rink nearby and is skilled in mischief, post-its and the uncanny ability to get in trouble.</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="PaulThomas" tabindex="-1" role="dialog" aria-labelledby="PaulThomas" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Paul Thomas" src="images/paul-thomas.jpg" />
+                <h5>Paul Thomas</h5>
+                <p class="bio-position">Microsoft Services &mdash; UK CTO for Health</p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: Healthier cities</h4>
+                  <p>How can we create cities of the future, today, where citizens can live longer, independently, in their own homes? And just how can technology enable better lifestyles and longevity?</p>
+                  <h4>About Paul</h4>
+                  <p>Paul is UK CTO for Health in Microsoft Services</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="janeredman" tabindex="-1" role="dialog" aria-labelledby="janeredman" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <img alt="Paul Thomas" src="images/jane-redman.jpg" />
+                <h5>Jane Redman</h5>
+                <p class="bio-position">Porchlight &mdash; Director of fundraising and communications</p>
+                <p><a href="https://twitter.com/porchlight1974">@porchlight1974</a></p>
+                <div class="speaker-profile-text">
+                  <h4>The talk: Using digital technology to empower the voiceless</h4>
+                  <h4>About Jane</h4>
+                  <p>Jane is director of fundraising and communications at Porchlight, the leading Kent charity supporting vulnerable and homeless children, young people and adults. Jane has been a professional fundraiser for more than 15 years and her role is to build relationships with donors and supporters in order to raise awareness and vital funds for Porchlight’s work.</p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- Other modals -->
+    <div class="modal fade" id="codeconduct" tabindex="-1" role="dialog" aria-labelledby="codeconduct" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <h5>Code of conduct</h5>
+                <div class="speaker-profile-text para-space">
+                  <p>Digibury Weekender is an inclusive event. It’s based on treating all individuals respectfully, regardless of age, accessibility, ethnicity, gender or sexual orientation.</p>
+                  <p>We know it’s unlikely, but if you see harassment in any form - or experience it yourself - then come and find one of the volunteer team. You’ll know who they are because they’ll be in a Digibury Weekender volunteer tee. Any harassing behaviour will result in the immediate expulsion from Digibury Weekender of the offending individual or individuals. And no refund. End of.</p>
+                  <p>You can also grab one of our crack Digibury Weekender team members &ndash; Lizzie Hodgson or Liz Flynn. They’re nice and friendly. There’s also the lovely Jake Taylor from The Gulbenkian. We’re here. For you.</p>
+                  <p>If you need to get hold of anyone really quickly, then text either Lizzie (07787 906 259) or Liz (07402 626 772). It doesn’t matter which &ndash; and on the positive, at least you’ll get our name right!</p>
+                  <p>Enjoy!</p>
+                  <p><em><small>Hat tip: dConstruct for some really useful CoC pointers!</small></em></p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="presspack" tabindex="-1" role="dialog" aria-labelledby="presspack" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          </div>
+          <div class="modal-body">
+              <div class="speaker-profile">
+                <h3>Press pack</h3>
+                <div class="speaker-profile-text para-space">
+                  <p><strong>Learn about Digibury Weekender &ndash; and then share the love!</strong></p>
+                  <p>We’ve created a PDF for your information, explaining the history of Digibury and the big Digibury Weekender on October 18.</p> 
+                  <p>If you want press accreditation on the day, please email: <a href="mailto:lizzieh@deeson.co.uk?Subject=Press%20accreditation">lizzieh@deeson.co.uk</a></p>
+                  <p><a href="downloads/Digibury%20Weekender%20Press%20Pack%202014.pdf"><span class="glyphicon glyphicon-cloud-download"></span> Digibury Weekender Press Pack 2014.pdf</a></p>
+                  <p><a href="downloads/Digibury%20Weekender%20photography%20and%20logos.zip"><span class="glyphicon glyphicon-cloud-download"></span> Digibury Weekender photography and logos.zip</a></p>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
