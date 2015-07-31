@@ -462,6 +462,11 @@ iframe {
   padding: 40px 0;
 }
 
+.grey-wrapper.talks {
+    padding: 20px 0;
+}
+
+
 .black-wrapper {
   background: #333;
   padding: 40px 0;
