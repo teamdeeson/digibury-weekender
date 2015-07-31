@@ -396,6 +396,10 @@ iframe {
   margin-top: 20px;
 }
 
+.post-header-right.deeson {
+  margin-top: 10px;
+}
+
 
 .post-header-right .btn {
   margin-top: 5px;
@@ -1058,8 +1062,16 @@ footer.d-2015 .brand {
   padding-top: 20px;
 }
 
+.footer-tickets.d2015 {
+    padding-top: 0px;
+}
+
 .footer-tickets h4 {
   float: left;
+}
+
+.footer-tickets.d2015 h4 {
+    float: none;
 }
 
 .footer-tickets .btn {
