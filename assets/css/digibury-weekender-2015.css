@@ -430,7 +430,9 @@ iframe {
   vertical-align: -1px;
 }
 
-
+.regional-sponsor {
+    margin-bottom: 20px;
+}
 
 
 @media (min-width: 768px) {
