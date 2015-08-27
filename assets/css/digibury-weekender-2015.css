@@ -430,9 +430,6 @@ iframe {
   vertical-align: -1px;
 }
 
-.regional-sponsor {
-    margin-bottom: 20px;
-}
 
 
 @media (min-width: 768px) {
@@ -808,6 +805,10 @@ iframe {
   vertical-align: middle;
   margin: 0 auto;
   display: block;
+}
+
+.regional-sponsor {
+    margin-bottom: 20px;
 }
 
 .sponsors p {
