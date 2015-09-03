@@ -159,6 +159,17 @@ iframe {
   width: 100%;
 }
 
+
+iframe.2014 {
+    width:560px;
+}
+
+@media (max-width: 768px) {
+    iframe.2014 {
+    width: 100%;
+    }
+}
+
 .text-center {
   text-align: center;
 }
