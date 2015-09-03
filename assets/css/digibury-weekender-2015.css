@@ -160,15 +160,17 @@ iframe {
 }
 
 
-iframe.2014 {
+
+iframe.dig-video {
     width: 560px;
 }
 
 @media (max-width: 768px) {
-    iframe.2014 {
-    width: 100%;
+    iframe.dig-video {
+        width: 100%;
     }
 }
+
 
 .text-center {
   text-align: center;
